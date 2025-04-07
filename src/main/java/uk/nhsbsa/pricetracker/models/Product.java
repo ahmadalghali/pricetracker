@@ -12,6 +12,8 @@ public class Product {
         this.name = name;
     }
 
+    public Product() {}
+
     public String getUrl() {
         return url;
     }
