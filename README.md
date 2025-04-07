@@ -34,7 +34,7 @@ Start the Spring Boot application:
 
 ### Example API Requests and Responses
 
-1. Track a product and set a price alert with all arguments
+#### 1. Track a product and set a price alert with all arguments
 
 Request:
 ```txt
@@ -52,7 +52,7 @@ Response:
 Price alert has been set successfully.
 ```
 
-2. Track a product and set a price alert without optional 'priceCheckFrequency' argument, (Default: MIDNIGHT)
+#### 2. Track a product and set a price alert without optional 'priceCheckFrequency' argument, (Default: MIDNIGHT)
 
 Request:
 ```txt
@@ -68,7 +68,7 @@ Response:
 Price alert has been set successfully.
 ```
 
-3. Track a product with a set desired price more than the current price
+#### 3. Track a product with a set desired price more than the current price
 
 Request:
 ```txt
@@ -91,7 +91,7 @@ Response:
 }
 ```
 
-4. Track a product with a set desired equal to the current price
+#### 4. Track a product with a set desired equal to the current price
 
 Request:
 ```txt
@@ -114,7 +114,7 @@ Response:
 }
 ```
 
-5. Track a non-existing product
+#### 5. Track a non-existing product
 
 Request:
 ```txt
@@ -137,7 +137,7 @@ Response:
 }
 ```
 
-6. Track a product with missing required argument (desiredPrice)
+#### 6. Track a product with missing required argument (desiredPrice)
 
 Request:
 ```txt
@@ -159,7 +159,7 @@ Response:
 }
 ```
 
-7. Track a product with missing required argument (userEmail)
+#### 7. Track a product with missing required argument (userEmail)
 
 Request:
 ```txt
@@ -181,7 +181,7 @@ Response:
 }
 ```
 
-8. Track a product with missing required argument (productUrl)
+#### 8. Track a product with missing required argument (productUrl)
 
 Request:
 ```txt
